@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Construyendo PipeLine con Heroku!\n'
+  const msg = 'My first pipeline in Heroku!\n'
   res.end(msg);
 });
 
